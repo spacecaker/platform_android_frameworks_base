@@ -7,7 +7,7 @@ import android.net.wifi.WifiManager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
-import com.b16h22.statusbar.R;
+import com.spacecaker.toggles.R;
 
 public class WifiToggle extends ImageView {
 
