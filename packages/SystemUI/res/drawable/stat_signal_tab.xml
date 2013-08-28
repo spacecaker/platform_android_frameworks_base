@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_qs_signal_full_0_tab" android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_qs_signal_full_1_tab" android:maxLevel="5" />
+    <item android:drawable="@drawable/ic_qs_signal_full_2_tab" android:maxLevel="7" />
+    <item android:drawable="@drawable/ic_qs_signal_full_3_tab" android:maxLevel="12" />
+    <item android:drawable="@drawable/ic_qs_signal_full_4_tab" android:maxLevel="31" />
+</level-list>

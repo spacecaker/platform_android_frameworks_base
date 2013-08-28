@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_qs_wifi_signal_0" android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_qs_wifi_signal_1" android:maxLevel="13" />
+    <item android:drawable="@drawable/ic_qs_wifi_signal_2" android:maxLevel="21" />
+    <item android:drawable="@drawable/ic_qs_wifi_signal_3" android:maxLevel="29" />
+    <item android:drawable="@drawable/ic_qs_wifi_signal_4" android:maxLevel="56" />
+</level-list>
