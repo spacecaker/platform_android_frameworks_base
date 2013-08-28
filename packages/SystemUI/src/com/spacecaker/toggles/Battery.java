@@ -1,4 +1,4 @@
-package com.b16h22.statusbar;
+package com.spacecaker.toggles;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -36,7 +36,7 @@ public class Battery extends LinearLayout {
 		  this.addView(chargingText);
           this.addView(battery);
           this.addView(batteryText);
-	 	    SharedPreferences sharedPreferences = context.getSharedPreferences("EvoPrefsFile",Context.MODE_PRIVATE);    
+	 	    SharedPreferences sharedPreferences = context.getSharedPreferences("SpacePrefsFile",Context.MODE_PRIVATE);    
 	 	    Boolean batteryVisibility = sharedPreferences.getBoolean("battery",false);
 	 	      if (batteryVisibility == false){
 	 	    	  String layoutType = sharedPreferences.getString("type","phablet");
@@ -114,7 +114,7 @@ public class Battery extends LinearLayout {
             	  batteryText.setVisibility(GONE);
             	  battery.setVisibility(GONE);
             	  chargingText.setVisibility(GONE);
-                  SharedPreferences sharedPreferences = context.getSharedPreferences("EvoPrefsFile",Context.MODE_PRIVATE);
+                  SharedPreferences sharedPreferences = context.getSharedPreferences("SpacePrefsFile",Context.MODE_PRIVATE);
                   SharedPreferences.Editor editor = sharedPreferences.edit(); //opens the editor
                   editor.putBoolean("battery", true); //true or false
                   editor.commit();	 
@@ -127,7 +127,7 @@ public class Battery extends LinearLayout {
             	  batteryText.setVisibility(VISIBLE);
             	  battery.setVisibility(VISIBLE);
             	  chargingText.setVisibility(VISIBLE);
-                  SharedPreferences sharedPreferences = context.getSharedPreferences("EvoPrefsFile",Context.MODE_PRIVATE);
+                  SharedPreferences sharedPreferences = context.getSharedPreferences("SpacePrefsFile",Context.MODE_PRIVATE);
                   SharedPreferences.Editor editor = sharedPreferences.edit(); //opens the editor
                   editor.putBoolean("battery", false); //true or false
                   editor.commit();	 
@@ -152,12 +152,12 @@ public class Battery extends LinearLayout {
               
           };      
           
-          context.registerReceiver(mReceiver2, new IntentFilter("com.b16h22.statusbar.CHANGE_LAYOUT")); 
+          context.registerReceiver(mReceiver2, new IntentFilter("com.spacecaker.toggles.CHANGE_LAYOUT")); 
           context.registerReceiver(mBatInfoReceiver, new IntentFilter(
                   Intent.ACTION_BATTERY_CHANGED));
           context.registerReceiver(mBatDisconnectedReceiver, new IntentFilter(
                   Intent.ACTION_POWER_DISCONNECTED));
-          context.registerReceiver(mReceiver, new IntentFilter("com.b16h22.statusbar.HIDE_BATTERY")); 
-          context.registerReceiver(mReceiver1, new IntentFilter("com.b16h22.statusbar.UNHIDE_BATTERY"));
+          context.registerReceiver(mReceiver, new IntentFilter("com.spacecaker.toggles.HIDE_BATTERY")); 
+          context.registerReceiver(mReceiver1, new IntentFilter("com.spacecaker.toggles.UNHIDE_BATTERY"));
 	 }	
 }

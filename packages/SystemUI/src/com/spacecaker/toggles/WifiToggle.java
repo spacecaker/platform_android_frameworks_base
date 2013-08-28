@@ -1,4 +1,4 @@
-package com.b16h22.statusbar;
+package com.spacecaker.toggles;
 
 
 import android.content.Context;
