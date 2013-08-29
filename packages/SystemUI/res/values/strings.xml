@@ -70,51 +70,6 @@
     <string name="label_view">View</string>
 
     <!-- Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] -->
-    <string name="always_use_accessory">Use by default for this USB accessory</string>
-
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_digital_clock">DigitalClock</string>
-    <string name="title_activity_settings_shortcut">SettingsShortcut</string>
-    <string name="title_activity_date_time">DateTime</string>
-    <string name="title_activity_battery">Battery</string>
-    <string name="title_activity_message_new">MessageNew</string>
-    <string name="title_activity_photo_picker">PhotoPicker</string>
-    <string name="title_activity_menu">Menu</string>
-    <string name="title_activity_menu_popup">MenuPopup</string>
-    <string name="title_activity_custom_alert_dialog_builder">CustomAlertDialogBuilder</string>
-    <string name="title_activity_compose_message">ComposeMessage</string>
-    <string name="title_activity_volume_slider">VolumeSlider</string>
-    <string name="title_activity_ringer_volume_slider">RingerVolumeSlider</string>
-    <string name="title_activity_system_volume_slider">SystemVolumeSlider</string>
-    <string name="title_activity_notification_volume_slider">NotificationVolumeSlider</string>
-    <string name="title_activity_in_call_volume_slider">InCallVolumeSlider</string>
-    <string name="title_activity_media_volume_slider">MediaVolumeSlider</string>
-    <string name="title_activity_receiver">Receiver</string>
-    <string name="title_activity_clock">Clock</string>
-    <string name="title_activity_pulldown">Pulldown</string>
-    <string name="title_activity_dummy">Dummy</string>
-    <string name="title_activity_date_panel">DatePanel</string>
-    <string name="title_activity_brightness_slider">BrightnessSlider</string>
-    <string name="title_activity_status_bar">StatusBar</string>
-    <string name="title_activity_profile_picture">ProfilePicture</string>
-    <string name="title_activity_pofile_name">PofileName</string>
-    <string name="title_activity_swipe_detector">SwipeDetector</string>
-    <string name="title_activity_swipe_scroll_view">SwipeScrollView</string>
-    <string name="title_activity_type_face">TypeFace</string>
-    <string name="title_activity_date">Date</string>
-    <string name="title_activity_day">Day</string>
-    <string name="title_activity_shortcut_background">ShortcutBackground</string>
-    <string name="title_activity_status_bar_service">StatusBarService</string>
-    <string name="title_activity_brightness_settings">BrightnessSettings</string>
-    <string name="title_activity_birghtness_settings">BirghtnessSettings</string>
-    <string name="title_activity_user_interface_settings">UserInterfaceSettings</string>
-    <string name="title_activity_toggle_text">ToggleText</string>
-    <string name="title_activity_battery_quick_settings">BatteryQuickSettings</string>
-    <string name="title_activity_wifi">Wifi</string>
-    <string name="title_activity_search">Search</string>
-    <string name="change_pic">Change profile picture</string>
-    <string name="profile_pic">SET PROFILE PICTURE</string>
-    <string name="profile_name">CHANGE PROFILE NAME</string>   
+    <string name="always_use_accessory">Use by default for this USB accessory</string> 
 
 </resources>

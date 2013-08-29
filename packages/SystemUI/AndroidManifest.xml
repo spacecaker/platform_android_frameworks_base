@@ -66,27 +66,5 @@
             android:finishOnCloseSystemDialogs="true"
             android:excludeFromRecents="true">
         </activity>
-
-        <activity
-            android:name="com.spacecaker.toggles.WifiToggle"
-            android:label="@string/title_activity_digital_clock" >
-        </activity>
-        <activity
-            android:name="com.spacecaker.toggles.SettingsShortcut"
-            android:label="@string/title_activity_settings_shortcut" >
-        </activity>
-        <activity
-            android:name="com.spacecaker.toggles.Battery"
-            android:label="@string/title_activity_battery" >
-        </activity>
-        <activity
-            android:name="com.spacecaker.toggles.BirghtnessSettings"
-            android:label="@string/title_activity_birghtness_settings" >
-        </activity>
-        <activity
-            android:name="com.spacecaker.toggles.BatteryQuickSettings"
-            android:label="@string/title_activity_battery_quick_settings" >
-        </activity>
-
     </application>
 </manifest>

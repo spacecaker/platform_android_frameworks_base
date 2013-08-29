@@ -61,33 +61,6 @@
             />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="3dp"
-        android:paddingBottom="5dp"
-        android:paddingRight="3dp"
-        android:background="@drawable/title_bar_portrait"
-        >
-        <com.spacecaker.toggles.BatteryQuickSettings       
-            android:layout_width="40.0px"
-            android:layout_height="40.0px"
-            android:orientation="vertical" 
-            />
-
-        <com.spacecaker.toggles.Sound
-            android:layout_width="fill_parent"
-            android:layout_height="0.0px"
-            android:id="@+id/sound" 
-            />    
-        <com.spacecaker.toggles.WifiToggle
-            android:layout_width="0.0dip"
-            android:layout_height="wrap_content"
-            android:id="@+id/settings" 
-            />
-    </LinearLayout>
-
     <FrameLayout
         android:layout_width="match_parent" 
         android:layout_height="wrap_content"
